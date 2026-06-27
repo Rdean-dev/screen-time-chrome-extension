@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 350px;
+    min-height: 400px;
+    padding: 20px;
+    background: linear-gradient(
+        135deg,
+        #eef2ff,
+        #f8fafc
+    );
+    color: #1e293b;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header p {
+    color: #6366f1;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header h1 {
+    font-size: 28px;
+}
+
+.summary-card {
+    background: white;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.summary-card p {
+    color: #64748b;
+}
+
+.summary-card h2 {
+    margin-top: 6px;
+    color: #6366f1;
+}
+
+.site-card {
+    background: white;
+    border-radius: 18px;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+
+.site-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-name {
+    font-weight: 600;
+}
+
+.site-time {
+    color: #6366f1;
+    font-weight: 700;
+}
+.progress {
+    height: 6px;
+    background: #e5e7eb;
+    border-radius: 999px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #4f46e5;
+    border-radius: 999px;
+}
+.site-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.favicon {
+    width: 18px;
+    height: 18px;
+}
+.top-site-badge {
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    background: #4f46e5;
+}
