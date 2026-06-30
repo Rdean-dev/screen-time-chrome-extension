@@ -2,6 +2,9 @@
 
 Screen Time Tracker is a Chrome extension that helps users monitor the amount of time they spend on different websites. It runs in the background, tracking time spent actively browsing each site, and provides a summary through a simple popup interface.
 
+<img width="352" height="595" alt="chrome_extension" src="https://github.com/user-attachments/assets/9b4fd056-ea56-4871-9be1-ae6f2e82cec0" />
+
+
 ## Features
 
 - **Time Tracking**: Automatically tracks the time you spend on each website in real-time.
